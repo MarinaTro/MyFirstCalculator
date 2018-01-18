@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/editTextNumFirst"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -27,7 +27,7 @@
             android:inputType="numberDecimal" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/editTextNumSecond"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -78,14 +78,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/buttonDivision" />
-
-        <Button
-            android:id="@+id/btnEquals"
-            style="@style/Widget.AppCompat.Button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/buttonEquals" />
 
         <Button
             android:id="@+id/btnRemoveAllData"
