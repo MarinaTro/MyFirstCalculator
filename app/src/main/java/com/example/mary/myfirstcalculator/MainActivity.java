@@ -9,5 +9,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+
+    }
+
+    private void getNumSum(){
+        int numOne = 1;
+        int numTwo = 2;
+        int numResult = numOne + numTwo;
     }
 }
