@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MyFirstCalculator</string>
+    <string name="buttonPlus">+</string>
+    <string name="buttonMinus">-</string>
+    <string name="buttonMultiplication">*</string>
+    <string name="buttonDivision">/</string>
+    <string name="buttonEquals">=</string>
+    <string name="buttonRemove">C</string>
 </resources>
