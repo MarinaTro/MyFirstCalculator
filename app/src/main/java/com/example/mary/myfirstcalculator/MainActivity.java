@@ -80,7 +80,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         /*
          Handling the button actions to remove
          */
-
         switch (v.getId()) {
             case R.id.btnRemoveAllData:
                 editTextNumFirst.setText("");
